@@ -1,14 +1,23 @@
-.bv{
-    display: flex;
-align-items: center;
-justify-content: center;
+.bv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-ion-label{
-    margin-left: -3%;
+ion-item {
+  .l1 {
+    font-size: 1rem;
+  }
 }
 
-.termo{
-    margin-right: 5%;
-    display: flex;
+.termo {
+  margin-right: 5%;
+  display: flex;
 }
+
+.p1 {
+  font-size: 0.8rem;
+}
+
+
+//height: 2%;
