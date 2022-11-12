@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header  [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Login
@@ -6,9 +6,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content  color="rosa">
+
+<img src="/assets/logo.png" alt="some text" >
 
 <ion-card>
+
+<b> <h4 class="h1"> Entrar no TeleView </h4> </b>
+
     <ion-item>
         <ion-label>
           <ion-input placeholder="Email"></ion-input>
@@ -22,21 +27,17 @@
         </ion-label>
       </ion-item>
 
+      <ion-button class="b1" expand="block" routerLink="/registro">Registar</ion-button>
 
-</ion-card>
-
-<ion-button expand="block" routerLink="/registro">Registar</ion-button>
-
-<u class="p1" routerLink="/senha"><p>Esqueceu a senha?</p></u>
+<u class="p1" routerLink="/senha"><p>Esqueceu sua senha?</p></u>
 
 <p class="p2"> ━━━━━━━━━ ou ━━━━━━━━━ </p>
 
 <div class="crc">
-  <ion-button  shape="round" routerLink="/login">Criar conta barbara feia</ion-button>
+  <ion-button class="b2"  shape="round" routerLink="/login">Criar conta</ion-button>
 </div>
 
-
-
+</ion-card>
 
 
 </ion-content>
